@@ -24,3 +24,7 @@ if (high_income or good_credit) and not student:
     print('Eligible')
 else:
     print('Not eligible')
+
+# Changing comparison operators
+if 18 <= age < 65:
+    print('Eligible between 18 to 65')
